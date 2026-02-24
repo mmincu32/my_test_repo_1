@@ -1,6 +1,10 @@
-# Sample Python script
-def greet(name):
-    return f"Hello, {name}!"
+import sys
 
-if __name__ == "__main__":
-    print(greet("World"))
+# A slightly more complex version
+
+print('Hello, World!')
+
+for i in range(5):
+    print(f'i={i}: Hello!')
+
+print('End of script.')
